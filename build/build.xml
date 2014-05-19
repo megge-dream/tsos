@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir=".." default="all" name="JEQ">
+
+  <target name="all" description="build JEQ" depends="jar" />
+
+  <!-- make sure we have all the dirs we need -->
+  <target name="init" description="==> initialization" >
+    <property name="jars" value="${basedir}/distrib"/>
+    <property name="lib"  value="${jars}/jeq.jar"/>
+    <property name="spilib"  value="${jars}/jeqspi.jar"/>
+  </target>
+
+  <!-- build JEQ classes -->
+  <target name="java-compile" depends="init" description="==> compiles all JEQ java classes">
+    <mkdir dir="${basedir}/classes" />
+    <delete includeEmptyDirs="yes">
+      <fileset dir="${basedir}/classes">
+        <include name="**/*.*"/>
+      </fileset>
+    </delete>
+    <javac srcdir="${basedir}/src"
+	   destdir="${basedir}/classes"
+	   debug="true"
+	   optimize="true"
+	   includes="**/*.java"
+       encoding="UTF-8"
+       source="1.3">
+    </javac>
+  </target>
+
+  <!-- build jarfiles of classes -->
+  <target name="jar" depends="java-compile" description="==> jars all JEQ java classes">
+    <!-- first jarfile is decoder only version (smallest size) -->
+    <jar jarfile="${lib}"
+         basedir="${basedir}/classes"
+         includes="davaguine/jeq/core/*.class"/>
+
+    <!-- second jarfile is full jmac lib version -->
+    <jar jarfile="${spilib}"
+         basedir="${basedir}/classes"
+         includes="davaguine/jeq/core/*.class,davaguine/jeq/spi/*.class">
+    </jar>
+  </target>
+
+</project>

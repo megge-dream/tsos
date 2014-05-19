@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="tsos.equalizer.gui">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="5" column-count="12" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="614" height="337"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+    </properties>
+    <clientProperties>
+      <html.disable class="java.lang.Boolean" value="false"/>
+    </clientProperties>
+    <border type="none"/>
+    <children>
+      <component id="9cd40" class="javax.swing.JButton" binding="playButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Play"/>
+        </properties>
+      </component>
+      <component id="c1935" class="javax.swing.JButton" binding="pauseButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pause"/>
+        </properties>
+      </component>
+      <component id="e352" class="javax.swing.JButton" binding="stopButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Stop"/>
+        </properties>
+      </component>
+      <component id="d00ed" class="javax.swing.JLabel" binding="controlsLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Controls"/>
+        </properties>
+      </component>
+      <component id="b973c" class="javax.swing.JSlider" binding="slider1">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <maximum value="12"/>
+          <minimum value="-12"/>
+          <orientation value="1"/>
+          <value value="0"/>
+        </properties>
+      </component>
+      <component id="5fccc" class="javax.swing.JSlider" binding="slider2">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <maximum value="12"/>
+          <minimum value="-12"/>
+          <orientation value="1"/>
+          <value value="0"/>
+        </properties>
+      </component>
+      <component id="765b2" class="javax.swing.JSlider" binding="slider3">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <maximum value="12"/>
+          <minimum value="-12"/>
+          <opaque value="false"/>
+          <orientation value="1"/>
+          <paintLabels value="false"/>
+          <paintTicks value="false"/>
+          <paintTrack value="true"/>
+          <snapToTicks value="true"/>
+          <value value="0"/>
+          <valueIsAdjusting value="false"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="f5b7a" class="javax.swing.JSlider" binding="slider4">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <maximum value="12"/>
+          <minimum value="-12"/>
+          <orientation value="1"/>
+          <value value="0"/>
+        </properties>
+      </component>
+      <component id="3629d" class="javax.swing.JSlider" binding="slider5">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <maximum value="12"/>
+          <minimum value="-12"/>
+          <orientation value="1"/>
+          <value value="0"/>
+        </properties>
+      </component>
+      <component id="9b812" class="javax.swing.JSlider" binding="slider6">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <maximum value="12"/>
+          <minimum value="-12"/>
+          <orientation value="1"/>
+          <value value="0"/>
+        </properties>
+      </component>
+      <component id="e7acf" class="javax.swing.JSlider" binding="slider7">
+        <constraints>
+          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <maximum value="12"/>
+          <minimum value="-12"/>
+          <orientation value="1"/>
+          <value value="0"/>
+        </properties>
+      </component>
+      <component id="5711f" class="javax.swing.JSlider" binding="slider8">
+        <constraints>
+          <grid row="4" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <maximum value="12"/>
+          <minimum value="-12"/>
+          <orientation value="1"/>
+          <value value="0"/>
+        </properties>
+      </component>
+      <component id="24550" class="javax.swing.JSlider" binding="slider9">
+        <constraints>
+          <grid row="4" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <maximum value="12"/>
+          <minimum value="-12"/>
+          <orientation value="1"/>
+          <value value="0"/>
+        </properties>
+      </component>
+      <component id="19776" class="javax.swing.JSlider" binding="slider10">
+        <constraints>
+          <grid row="4" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <inverted value="false"/>
+          <maximum value="12"/>
+          <minimum value="-12"/>
+          <orientation value="1"/>
+          <value value="0"/>
+        </properties>
+      </component>
+      <component id="2ea8b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Effects" noi18n="true"/>
+        </properties>
+      </component>
+      <component id="e57ea" class="javax.swing.JButton" binding="effect1Button" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Vibrato"/>
+        </properties>
+      </component>
+      <component id="f9827" class="javax.swing.JButton" binding="effect2Button" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Distortion"/>
+        </properties>
+      </component>
+      <component id="ef218" class="javax.swing.JButton" binding="effect3Button">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Reverberation"/>
+        </properties>
+      </component>
+      <component id="795af" class="javax.swing.JButton" binding="effect4Button">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Eho"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
